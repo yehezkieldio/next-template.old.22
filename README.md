@@ -4,10 +4,10 @@
 
 It's based around or directly uses the [T3 Stack](https://create.t3.gg/) with modifications and additions to suit my needs, it includes:
 
-- [Drizzle](https://orm.drizzle.team/) as database ORM.
+- [Drizzle](https://orm.drizzle.team/) as database ORM, with a Postgres database.
+- [Biome.js](https://biomejs.dev/) as replacement for Prettier and ESLint.
 - A Docker Compose setup for local development with a Postgres database.
-- [Biome.js](https://biomejs.dev/) to replace ESLint and Prettier.
-- `next-auth@5.0.0-beta` for authentication.
+- `next-auth@5.0.0-beta` for authentication and authorization.
 
 ## License
 
